@@ -1,0 +1,67 @@
+.careRequests {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: inherit;
+    background-color: lightgreen;
+    align-items: center;
+    background-image: ;
+}
+
+.careRequests>.addCareRequest {
+    margin-top: 20px;
+    height: 6vw;
+    width: 6vw;
+    background-color: orange;
+    font-size: 20pt;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.careRequests>.addCareRequest:hover {
+    background-color: darkorange;
+}
+
+.careRequests>.careRequest {
+    display: flex;
+    background-color: orange;
+    height: 100px;
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.careRequests>.careRequest>.petBubble {
+    flex: 1;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.careRequests>.careRequest>.petBubble>img {
+    border-radius: 50%;
+}
+
+.careRequests>.careRequest>.careRequestDescription {
+    flex: 8;
+}
+
+.careRequests>.careRequest>.careRequestDescription>.careRequestDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.careRequests>.careRequest>.careRequestDescription>.careRequestDetails>.offerCare {
+    background-color: lightgray;
+    width: 10vw;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addCareRequestForm {
+    
+}

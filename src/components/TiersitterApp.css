@@ -1,0 +1,43 @@
+.tiersitter-app {
+    background-color: lightblue;
+    display: flex;
+    transition: 0.5s;
+    width: inherit;
+    flex-direction: row;
+
+}
+
+.sidenav {
+    height: inherit;
+    height: inherit;
+    box-sizing: border-box;
+    background-color: grey;
+    overflow: hidden;
+    padding-top: 60px;
+    display: flex;
+    flex: 1;
+    flex-shrink: 3;
+    flex-direction: column;
+}
+
+.sidenav>button {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    background-color: lightblue;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav>button:hover {
+    color: #f1f1f1;
+}
+
+.start,
+.anfragen,
+.meine-tiere {
+    height: inherit;
+    flex: 1;
+    flex-grow: 3;
+}
